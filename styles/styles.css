@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  font-size: 16px;
+}
+:root {
+  --clr-seaweed: #177e89ff;
+  --clr-eagle-green: #084c61ff;
+  --clr-red: #db3a34ff;
+  --clr-yellow: #ffc857ff;
+  --clr-jet: #323031ff;
+  --clr-black: #1f1b1b;
+  --clr-white: #ffffff;
+  --box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #141E30;
+background: -webkit-linear-gradient(to right, #243B55, #141E30);
+background: linear-gradient(to right, #243B55, #141E30); 
+
+
+}
+
+.dollar-icon{
+  width: 7rem;
+  display: flex;
+  margin: auto;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(60, 190, 190);
+}
+p {
+  font-size: 15px;
+  color: aliceblue;
+}
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-right:6rem;  
+}
+button {
+  background-color:rgb(15, 91, 204);
+  color: aliceblue;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+.rate{
+  color: aliceblue;
+}
+.option2 {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  padding: 0.5rem;
+}
+select {
+  padding: 0.2rem 1rem;
+}
+
+@media screen and (max-width:768px) {
+  
+  .dollar-icon{
+    width: 2.5rem;
+  }
+  h1{
+    font-size: 22px;
+  }
+  p{
+    text-align: center;
+  }
+  .input-container{
+    gap: 1rem;
+    
+  }
+  input{
+    width: 10rem;
+  }
+  .btn{
+    margin-right: 2rem;
+  
+  }
+  
+};
