@@ -82,6 +82,7 @@ button {
   border: none;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 .rate{
   color: aliceblue;
@@ -100,7 +101,7 @@ select {
 @media screen and (max-width:768px) {
   
   .dollar-icon{
-    width: 2.5rem;
+    width: 5.5rem;
   }
   h1{
     font-size: 22px;
