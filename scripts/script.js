@@ -3,7 +3,7 @@
 
 const currencyOneEl = document.getElementById('currency1');
 const AmountOneEl = document.getElementById("amount1");
-const currencyTwoEl = document.getElementById('currency2')
+const currencyTwoEl = document.getElementById('currency2');
 const AmountTwoEl = document.getElementById("amount2");
 const btnEl = document.getElementById("swap-btn");
 const rateEl = document.getElementById("rate");
@@ -27,12 +27,13 @@ function calculate (){
     AmountTwoEl.value= (AmountOneEl.value * rate).toFixed(2);
   });
 
-}
+};
 
 // event listeners
 
 currencyOneEl.addEventListener('change',calculate);
 currencyTwoEl.addEventListener('change',calculate);
+
 AmountOneEl.addEventListener('input' , calculate);
 AmountTwoEl.addEventListener('input', calculate);
 
@@ -42,6 +43,6 @@ btnEl.addEventListener('click',()=>{
   currencyOneEl.value=currencyTwoEl.value;
   currencyTwoEl.value=temp;
   calculate()
-})
+});
 
 calculate();
